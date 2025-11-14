@@ -5,5 +5,5 @@ self.__uv$config = {
     decodeUrl: Ultraviolet.codec.xor.decode,
     bundle: '/class/uv.bundle.js',
     config: '/class/uv.config.js',
-    sw: '/class/sw.js',               // must match filename in root
+    sw: '/sw.js',               // must match filename in root
 };
