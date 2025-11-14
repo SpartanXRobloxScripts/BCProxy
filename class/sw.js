@@ -1,8 +1,8 @@
-importScripts("/work/dynamic.config.js");
-importScripts("/work/dynamic.worker.js");
+importScripts("https://ubg1.vercel.app/work/dynamic.config.js");
+importScripts("https://ubg1.vercel.app/work/dynamic.worker.js");
 importScripts("/class/uv.bundle.js");
 importScripts("/class/uv.config.js");
-importScripts("/class/uv.sw.js"); // override because the support for UV is complete dogshit
+importScripts("https://ubg1.vercel.app/class/uv.sw.js"); // override because the support for UV is complete dogshit
 
 const uv = new UVServiceWorker();
 const dynamic = new Dynamic();
@@ -24,3 +24,4 @@ self.addEventListener("fetch", (event) => {
     })()
   );
 });
+
