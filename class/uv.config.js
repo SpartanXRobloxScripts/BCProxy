@@ -1,12 +1,9 @@
-/*global Ultraviolet*/
 self.__uv$config = {
-    prefix: '/classes/math/',
-    bare: 'https://ubg1.vercel.app/bare/',
+    prefix: '/classes/math/',   // must exactly match the path in the URL
+    bare: 'https://ubg1.vercel.app/bare/',  // backend server
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: 'https://ubg1.vercel.app/class/uv.handler.js',
-    client: 'https://ubg1.vercel.app/class/uv.client.js',
-    bundle: '/class/uv.bundle.js',
-    config: '/class/uv.config.js',
-    sw: 'https://ubg1.vercel.app/class/uv.sw.js',
+    bundle: '/uv.bundle.js',
+    config: '/uv.config.js',
+    sw: '/sw.js',               // must match filename in root
 };
