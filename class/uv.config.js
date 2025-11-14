@@ -8,5 +8,5 @@ self.__uv$config = {
     client: 'https://ubg1.vercel.app/class/uv.client.js',
     bundle: '/class/uv.bundle.js',
     config: '/class/uv.config.js',
-    sw: '/class/uv.sw.js',
+    sw: 'https://ubg1.vercel.app/class/uv.sw.js',
 };
