@@ -3,7 +3,7 @@ self.__uv$config = {
     bare: 'https://ubg1.vercel.app/bare/',  // backend server
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    bundle: '/uv.bundle.js',
-    config: '/uv.config.js',
-    sw: '/sw.js',               // must match filename in root
+    bundle: '/class/uv.bundle.js',
+    config: '/class/uv.config.js',
+    sw: '/class/sw.js',               // must match filename in root
 };
